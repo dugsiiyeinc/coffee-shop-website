@@ -1,0 +1,536 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box; 
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+
+.header{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    background-color: rgb(30, 15, 7);
+    cursor: pointer;
+    overflow: hidden;
+      gap: 10px;
+      position: relative;
+}
+   
+
+.logo{
+    
+    color: rgb(101, 67, 33);
+    display: flex;
+     animation: main 1s alternate infinite;
+     margin-right: 120%;
+     position: absolute;
+}
+
+
+.container{
+     background-color: rgb(24, 17, 17);
+     width: 100%;
+}
+
+.nav-bar{
+    background-color: rgb(24, 17, 17);
+    display: flex;
+   margin-left: 20%;
+    justify-content: space-around;
+    align-items: center;
+   color: white;
+   width: 100%;
+  
+   
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    height: 10vh;
+    
+   
+}
+.nav-items li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+   width: 100%;
+    
+}
+.nav-items li a:hover{
+    color: rgba(244, 242, 241, 0.44);
+}
+.main{
+
+    color: white;
+    text-align: start;
+    position: absolute;
+    top: 25%;
+    max-width: 50%;
+    height: 50vh;
+    text-align: start;
+    padding: 10px;
+    margin: 10px;
+
+}
+.main h1 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+
+.main h3{
+  margin: 30px;
+  padding: 10px;
+  text-align: c;
+}
+.main  span{
+    padding: 10px;
+    margin-top: 20px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-left:5%;
+  
+}
+
+ 
+.btn button{
+ 
+    color: black;
+    width: 100px;
+    gap: 40px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    
+    
+   
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgb(74, 25, 25);
+    color: white;
+    
+}
+#co2 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    border-radius: 40%;
+}
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+   cursor: pointer;
+}
+.hamburger span{
+    background-color: white;
+    margin: 2px;
+    padding: 1px;
+    width: 20px;
+    cursor: pointer;
+
+}
+.section1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(200, 158, 158);
+
+}
+.section1 img{
+     width: 50px;
+     height: 5vh;
+     border-radius: 50%;
+     padding: 2px;
+     margin: 2px;
+     }
+  
+.section1{
+    background-image: url("images/Coffe1.png");
+    color: white;
+}
+.section1 p{
+    font-size: larger;
+    font-weight:8px ;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+
+
+.order-menu{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.order-menu img{
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+
+}
+.menu{
+    background-color:  rgb(30, 15, 7);
+    width: 100%;
+    margin: 10px;
+     position: absolute;
+}
+.menu ul {
+    display: flex;
+      padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.about{
+    display:  flex;
+   max-width: 100%;
+    height: 50vh;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 35px;
+   
+
+}
+.about img{
+    max-width: 400px;
+    height: 30vh;
+}
+   
+
+.about p{
+    padding: 10px;
+    
+}
+.about-style{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+   
+}
+.about-style img{
+    width: 100%;
+}
+.about-style button{
+    padding: 10px;
+    margin: 10px;
+    background-color: #1E0F07;
+    color: white;
+    width: 200px;
+}
+.about-style button:hover{
+    background-color: rgb(91, 52, 45);
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+   margin: auto;
+    padding: 10px;
+    overflow-x: hidden;
+  
+   
+
+}
+.video1{
+   width: 100%;
+    height: 80vh;
+    padding: 5px;
+    margin: 10px;
+    filter: brightness(0.3);
+    object-fit: cover;
+   z-index: -1;   
+}
+.sec-desc{
+
+    padding: 10px;
+    margin:10px;
+    position: absolute;
+    width: 80%;
+    color: white;
+   font-family: 'Times New Roman', Times, serif;
+    position:  absolute;
+    top: 30%;
+    font-size:  16px;
+    line-height: 1.6;
+}
+.sec-desc h1{
+    padding: 10px;
+    margin: 10px;
+    font-size:  30px;
+}
+.sec-desc button{
+    background-color: rgb(82, 82, 133);
+    padding: 15px;
+    margin: 30px;
+    width: 150px;
+    margin-left: 30%;
+    color: white;
+    border: none;
+}
+.sec-desc button:hover{
+    background-color: rgb(91, 52, 45);
+}
+/* __________________ */
+@media(max-width: 1024px){
+    .logo{
+        margin: 10px;
+    }
+    .btn{
+        padding: 10px;
+    }
+    .btn{
+        display: flex;
+       row-gap: 10px;
+    }
+    .btn button{
+    color: black;
+    width: 100%;
+    gap: 10px;
+    
+    
+    
+    }
+    #co2{
+    width:150px;
+    height: 400px;
+   position: absolute;
+    left:  50%;
+ animation: cope 50s alternate infinite;
+ border-radius: 40%;
+}
+
+    .header img{
+  min-width: 50%;
+  height: 50vh;
+   
+    
+}
+ .header {
+  min-width: 100%;
+  height: 75vh;
+    overflow-x: hidden;
+    
+}
+ .logo{
+    left: -1%;
+   }
+    
+}
+
+
+@media(max-width: 424px){
+
+*{
+  margin : 0;
+padding:0;
+box-sizing: box-border;
+overflow-x: hidden;
+cursor: pointer;
+}
+.header img{
+  min-width: 50%;
+  height: 50vh;
+    overflow-x: hidden;
+    
+}
+  .nav-bar {
+        padding: 0 15px;
+    }
+    
+   .logo{
+    left: -1%;
+   }
+   
+        
+    .background1{
+        left: 20%;
+        padding: 5px;
+        top: -0.5px;
+        background-color: antiquewhite;
+    }
+    .main{
+   
+    padding: 5px;
+    margin: 5px;
+    max-width: 50%;
+    position: absolute;
+   
+
+}
+.main h3{
+    font-size: 14px;
+    margin-left: -10%;
+}
+.main span{
+   margin-left: -5%;
+}
+
+.btn{
+    min-width: 100%;
+    gap: 30px;
+       margin-left: -5%;
+}
+    .main h3 {
+        font-size: 15px;
+        min-width: 100%;
+        margin: 10px;
+        
+    }
+    .main span{
+        margin: 10px;
+        font-size: 12px;
+    }
+    
+    .main h1 {
+        font-size:24px;
+    }
+     .main button{
+      
+     padding: 8px;
+     margin: 1px;
+     margin-left: -10%;
+     font-size: 12px;
+      
+     }
+    
+   .hamburger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.hamburger .bar{
+    width: 25px;
+    height: 2px;
+    background-color: rgb(209, 98, 98);
+    margin: 3px 0;
+    transition: all 0.3s ease;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 4px);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -4px);
+}
+  
+    .nav-items  {
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: #1E0F07;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+        padding-top: 50px;
+        transition: left 0.3s ease;
+        z-index: 1;
+        cursor: pointer;
+    }
+    
+    .nav-items.active  {
+        left: 0;
+    }
+    
+    .nav-items li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+       
+    }
+    
+    .nav-items  li a {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        text-align: center;
+        
+   
+    }
+    .about{
+    display: contents;
+    flex-direction: row;
+   max-width: 100%;
+    padding: 5px;
+    margin: 5px;
+   
+}
+.about-style{
+   width: 100%;
+  
+}
+.about-style img{
+   width: 100%;
+  
+  
+}
+.about-style button{
+
+    margin-left: 20%;
+}
+
+.sec-desc{
+    font-size: 14px;
+    color: black;
+    font-size: 12px;
+    color: white;
+    top:20%;
+    width: 80%;
+
+    
+}
+.sec-desc h1{
+    font-size: 16px;
+}
+.sec-desc h3{
+    margin-left: 10px;
+}
+.video1 {
+    height: 70vh;
+    width: 100%;
+}
+}   
+
+     
+  
+
+
+
+
+
+

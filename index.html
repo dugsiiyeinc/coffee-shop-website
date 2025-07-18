@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffeteria</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <header class="header">
+   
+        <div class="container">
+    
+            <div class="nav-bar">
+                 <h1 class="logo">SOM*Coffee</h1>
+                 <ul class="nav-items">
+                  <li><a href="#Home">Home</a></li>
+                   <li><a href="#Menu">Menu</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Services">Service</a></li>
+                  <li><a href="#Home">Contact us</a></li>
+                  <li><a href="#Table">Book it Now</a></li>
+                </ul>
+                <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+            </div>
+            <div class="rot">
+         
+            <div class="main" id="Home">
+               
+                <h1>Descover the universe of prefect coffee</h1>
+                <h3>Experience the nature of coffe and delicious testing of our exquisited blends coffee crafted to awaken  </h3> 
+                
+                <span>Start your day in a right way </span>
+                <div class="btn"><button >Order Now</button>  <button>Explore more</button>
+                </div>
+                
+            </div>
+              
+        </div>
+         <img  src="images/co2.png" alt="co2" id="co2">
+    </header>
+  <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navItems = document.querySelector('.nav-items');
+        
+        hamburger.addEventListener('click', () => {
+            navItems.classList.toggle("active");
+            hamburger.classList.toggle("active");
+        });
+
+        // Close mobile menu when clicking on a nav link
+        const navLinks = document.querySelectorAll('.nav-items a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navItems.classList.remove("active");
+                hamburger.classList.remove("active");
+            });
+        });
+    </script>
+ <section 1 class="section1"> <h1><span>Som-Coffee –</span> The Place of Relaxation and Flavor</h1>
+    <img src="images/col-o.png" alt="">
+     <img src="images/col-o.png" alt="">
+     
+   
+ </section>
+ <section class="about" id="About">
+     <div class="about-style">
+    <img src="co-back.jpg" alt="images/co1jpg">
+   
+        <p>Get our best deals on coffee and more when you create a new subscription. Extra discounts for prepaid subscriptions!</p>
+    <button>SUBSCRIBE & SAVE</button></div>
+ <div class="about-style">
+     <img src="co-4.jpg" alt="images/co1jpg">
+   
+        <p>For a limited time, upgrade your at-home cafe with 30% OFF our collection of select brewing equipment, drinkware, and more. </p>
+  <button>SUBSCRIBE & SAVE</button>
+    </div>
+     <div class="about-style">
+     <img src="images/milkshark.jpg" alt="images/co1jpg">
+   
+        <p>earn how to make a delicious S'mores Latte at home.Get the campfire feeling without going outside. This rich and cozy homemade s'mores latte combines chocolate, espresso, and marshmallows for a toasted treat..</p>
+  <button>SUBSCRIBE & SAVE</button>
+    </div>
+ </section>
+ <section class="section3"><div class="sec-desc">
+     <h1>SOM*Coffee: Where Craft Meets Comfort in Every Cup.</h1>
+    <p>
+
+At SOM*Coffee, we invite you to discover the universe of perfect coffee — where every cup is a journey, every flavor tells a story, and every visit feels like coming home. We are more than a coffee shop; we are a haven for coffee enthusiasts, creatives, and anyone seeking a moment of comfort, connection, and craft. <br>
+
+Our story begins with a deep respect for nature and a relentless pursuit of quality. We source only the finest beans from sustainable farms around the world, carefully selecting each origin to bring out the most unique and exquisite flavor profiles. From earthy and bold to light and floral, our blends are thoughtfully crafted to suit every taste and mood.
+
+</p>
+    <button>Get Started</button></div>
+ 
+   <video autoplay muted loop class="video1">
+    <source src="co-shop.mp4">
+   </video>
+    
+   
+    </section>
+
+</body>
+</html>
