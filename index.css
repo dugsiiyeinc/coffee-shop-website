@@ -35,7 +35,7 @@ body{
 
 .container{
     position: fixed;
-    background-color: #3c1b1b;
+    background-color: rgb(52, 24, 5);
    z-index: 1;
   
 }
