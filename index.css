@@ -5,6 +5,10 @@
   overflow-x: hidden;
   cursor: pointer;
 }
+body{
+    background-color: rgb(24, 17, 17);
+    color: white;
+}
 
 
 .header{
@@ -24,7 +28,7 @@
     color: rgb(101, 67, 33);
     display: flex;
      animation: main 1s alternate infinite;
-     margin-right: 120%;
+     margin-right: 100%;
      position: absolute;
 }
 
@@ -70,10 +74,10 @@
 
     color: white;
     text-align: start;
-    position: absolute;
+ 
     top: 25%;
     max-width: 50%;
-    height: 50vh;
+    height: 100vh;
     text-align: start;
     padding: 10px;
     margin: 10px;
@@ -105,8 +109,8 @@
 
  
 .btn button{
- 
-    color: black;
+  background-color: rgb(133, 124, 124);
+    color: white;
     width: 100px;
     gap: 40px;
     padding: 10px;
@@ -127,7 +131,10 @@
     height: auto;
     position: absolute;
     left: 60%;
+    top: 30%;
     border-radius: 40%;
+    overflow: hidden;
+    
 }
 
 .hamburger{
@@ -318,9 +325,9 @@
     #co2{
     width:150px;
     height: 400px;
-   position: absolute;
+
     left:  50%;
- animation: cope 50s alternate infinite;
+
  border-radius: 40%;
 }
 
@@ -378,13 +385,16 @@ cursor: pointer;
     padding: 5px;
     margin: 5px;
     max-width: 50%;
-    position: absolute;
-   
+    position: relative;
+    top: 2%;
+    overflow: hidden;
+
+  
 
 }
 .main h3{
     font-size: 14px;
-    margin-left: -10%;
+  
 }
 .main span{
    margin-left: -5%;
@@ -395,12 +405,7 @@ cursor: pointer;
     gap: 30px;
        margin-left: -5%;
 }
-    .main h3 {
-        font-size: 15px;
-        min-width: 100%;
-        margin: 10px;
-        
-    }
+   
     .main span{
         margin: 10px;
         font-size: 12px;
@@ -708,7 +713,7 @@ h2 {
   text-align: center;
   justify-content: space-around;
   align-items: center;
-   width: 100%;
+   width: 98.5%;
    margin: 10px 10px;
    background: #382113;
  
