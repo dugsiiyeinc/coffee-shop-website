@@ -34,18 +34,21 @@ body{
 
 
 .container{
-     background-color: rgb(24, 17, 17);
-     width: 100%;
+    position: fixed;
+    background-color: #3c1b1b;
+   z-index: 1;
+  
 }
 
 .nav-bar{
-    background-color: rgb(24, 17, 17);
+  
     display: flex;
    margin-left: 20%;
     justify-content: space-around;
     align-items: center;
    color: white;
    width: 100%;
+      z-index: 1;
   
    
 
@@ -74,16 +77,19 @@ body{
 
     color: white;
     text-align: start;
-    top: 25%;
+    position:absolute;
+    top: 20%;
     max-width: 50%;
     height: 100vh;
-    text-align: start;
+    text-align: center;
     padding: 10px;
     margin: 10px;
+    object-fit: cover;
 
 }
 .main h1 {
     padding: 10px;
+
     margin: 10px;
     font-size: 60px;
     color: #ffffff;
@@ -128,8 +134,8 @@ body{
     
 }
 #co2 {
-    width: 250px;
-    height: auto;
+    width: 30%;
+    height: 50vh;
     position: absolute;
     left: 60%;
     top: 30%;
@@ -144,6 +150,7 @@ body{
     cursor: pointer;
     padding: 10px;
    cursor: pointer;
+   
 }
 .hamburger span{
     background-color: white;
@@ -224,7 +231,7 @@ body{
 .about img{
     max-width: 400px;
     height: 30vh;
-    border:  3px solid white;
+    border:  px solid white;
 }
    
 
@@ -329,7 +336,7 @@ body{
     }
     #co2{
     width:150px;
-    height: 400px;
+    height: 300px;
 
     left:  50%;
 
@@ -370,12 +377,23 @@ cursor: pointer;
     overflow-x: hidden;
     
 }
+.container{
+   position:static;
+   
+
+ 
+  
+}
   .nav-bar {
         padding: 0 15px;
+      
+    
     }
     
    .logo{
     left: -1%;
+    top: 2%;
+    
    }
    
         
@@ -384,14 +402,15 @@ cursor: pointer;
         padding: 5px;
         top: -0.5px;
         background-color: antiquewhite;
+        object-fit: cover;
     }
     .main{
    
     padding: 5px;
     margin: 5px;
     max-width: 50%;
-    position: relative;
-    top: 2%;
+  
+    top: 10%;
     overflow: hidden;
 
   
@@ -434,7 +453,8 @@ cursor: pointer;
     cursor: pointer;
     padding: 10px;
     cursor: pointer;
-    margin-left: 35%;
+    margin-left: 80%;
+    
 }
 .hamburger .bar{
     width: 25px;
@@ -461,14 +481,14 @@ cursor: pointer;
         left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: #1E0F07;
+        background-color: #bf6a3d;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         gap: 0;
         padding-top: 50px;
         transition: left 0.3s ease;
-        z-index: 1;
+       z-index: 1;
         cursor: pointer;
     }
     
