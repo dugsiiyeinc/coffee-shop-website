@@ -224,6 +224,7 @@ body{
 .about img{
     max-width: 400px;
     height: 30vh;
+    border:  3px solid white;
 }
    
 
