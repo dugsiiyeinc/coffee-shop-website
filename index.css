@@ -109,7 +109,7 @@ body{
 
  
 .btn button{
-  background-color: rgb(133, 124, 124);
+  background-color: rgb(82, 82, 133);
     color: white;
     width: 100px;
     gap: 40px;
@@ -122,7 +122,7 @@ body{
 }
 .btn button:hover{
     cursor: pointer;
-    background-color: rgb(74, 25, 25);
+    background-color: rgb(82, 82, 133);
     color: white;
     
 }
@@ -244,9 +244,10 @@ body{
 .about-style button{
     padding: 10px;
     margin: 10px;
-    background-color: #1E0F07;
+    background-color: rgb(82, 82, 133);
     color: white;
     width: 200px;
+    border: none;
 }
 .about-style button:hover{
     background-color: rgb(91, 52, 45);
@@ -795,7 +796,7 @@ h2 {
 .top-info {
   padding: 20px 10px;
   font-size: 16px;
-  color: #444;
+  color: white;
   text-align: center;
   width: 100%;
 }
