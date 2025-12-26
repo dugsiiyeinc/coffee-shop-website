@@ -1,0 +1,326 @@
+/* Base Style */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfbf8;
+  color: #3a2e23;
+}
+
+.Service-section {
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 40px 20px;
+}
+img{
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #3b2314;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #2b1a0d;
+}
+
+.card p {
+  font-size: 14px;
+  color: #6a5240;
+  flex-grow: 1;
+}
+
+.price-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price-order span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #382113;
+}
+
+.price-order button {
+  padding: 7px 14px;
+  background-color: #3e2c1c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.price-order button:hover {
+  background-color: #218838;
+}
+
+
+.contact-section {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  margin: 30px;
+  min-width: 300px;
+  height: 400px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  padding: 12px 25px;
+  background-color: #3e2c1c;
+  /* background-color: ; */
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
+
+.map-container {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+/* Booking Section */
+.booking-section {
+  background-color: #fefefe;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.booking-section h2 {
+  margin-bottom: 25px;
+  color: #3e2c1c;
+}
+
+.booking-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background-color: #3e2c1c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #218838;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+/* Info Top */
+.top-info {
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  width: 100%;
+}
+
+/* Open Hours (Centered) */
+.open-hours {
+  position: relative;
+  background:linear-gradient(rgba(152,151,151,0.5),rgba(111,111,111,0.5)), url('https://media.istockphoto.com/id/1171094436/photo/withe-cup-filled-with-hot-coffee-surrounded-by-roasted-coffee-beans.jpg?s=612x612&w=0&k=20&c=PgRxi2HtsU204-yB0PgcLPgNYT4QJ2G1VbK5IBWSsxw=') no-repeat center center/cover; ;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+  height: 400px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Gradient Overlay Inside */
+.open-hours .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-hours h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.open-hours p,
+.open-hours strong {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+/* Footer Icons */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  color: #777;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  color: #6a5240;
+  font-size: 22px;
+  margin: 0 10px;
+  text-decoration: none
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .price-order span {
+    font-size: 14px;
+  }
+
+  .price-order button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
